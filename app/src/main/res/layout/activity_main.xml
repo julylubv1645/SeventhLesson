@@ -1,0 +1,37 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поиск ключей"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/screen"
+        android:layout_width="320dp"
+        android:layout_height="500dp"
+        android:padding="5dp"
+        android:background="#F3F3F3"
+        android:gravity="center"
+        android:hint="Нажимайте на экран чтобы найти ключи"
+        android:textColor="#3F51B5"
+        android:textColorHint="#A79ABA"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coordinates"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
